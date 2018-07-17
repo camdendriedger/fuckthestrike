@@ -1,0 +1,207 @@
+@charset "utf-8";
+
+
+
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+    font-family: 'bebasneue-bold';
+    src: url('../fonts/bebas_neue/bebasneue-bold.woff2') format('woff2');
+    src: url('../fonts/bebas_neue/bebasneue-bold.woff') format('woff');
+    src: url('../fonts/bebas_neue/bebasneue_bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'bebasneue-book';
+    src: url('../fonts/bebas_neue/bebas_neue-book.woff2') format('woff2');
+    src: url('../fonts/bebas_neue/bebas_neue-book.woff') format('woff');
+    src: url('../fonts/bebas_neue/bebasneue_book.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'bebasneue-light';
+    src: url('../fonts/bebas_neue/bebasneue-light.woff2') format('woff2');
+    src: url('../fonts/bebas_neue/bebasneue-light.woff') format('woff');
+    src: url('../fonts/bebas_neue/bebasneue_light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'bebasneue-regular';
+    src: url('../fonts/bebas_neue/bebasneue-regular.woff2') format('woff2');
+    src: url('../fonts/bebas_neue/bebasneue-regular.woff') format('woff');
+    src: url('../fonts/bebas_neue/bebasneue_regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'bebasneue-thin';
+    src: url('../fonts/bebas_neue/bebasneue-thin.woff2') format('woff2');
+    src: url('../fonts/bebas_neue/bebasneue-thin.woff') format('woff');
+    src: url('../fonts/bebas_neue/bebasneue_thin.ttf') format('truetype');
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.splash {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+}
+
+.splash .background {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-image: url('../img/picketline.jpg');
+  background-size: cover ;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.splash .background .image-container {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.splash .background .image {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transform: scale(1.3);
+  -moz-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  -webkit-transform: scale(1.3);
+}
+
+.splash .background .overlay {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: #d1c7c7;
+  opacity: .9;
+  z-index: 10;
+}
+
+
+.splash .content {
+  width: 100%;
+  height: 100%;
+  padding: 50px;
+  position: fixed;
+
+  display: flex;
+
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  z-index: 50;
+}
+
+.splash .content .logo-container {
+  width: 350px;
+  height: 350px;
+  max-width: 100%;
+  max-height: 80%;
+
+  margin-bottom: 40px;
+  margin-right: 20px;
+
+  display: flex;
+
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.splash .content .logo {
+  width: 100%;
+}
+
+.splash .content .button {
+  height: 40px;
+  box-sizing: border-box;
+  background-color: none;
+  border: 2px solid #bd4e4e;
+  padding: 10px;
+  padding-top: 14px;
+
+  font-family: 'bebasneue-regular';
+  font-size: 19px;
+  color: #bd4e4e;
+
+  transition: all .3s ease;
+
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.splash .content .button:hover {
+  background-color: rgba(189, 78, 78, .4);
+
+  padding: 10px;
+  padding-top: 14px;
+
+  border: none;
+  color: #fff;
+  cursor: default;
+
+}
+
+
+
+.splash .content .button-text {
+  letter-spacing: 1px;
+
+}

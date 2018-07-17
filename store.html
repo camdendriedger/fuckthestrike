@@ -1,0 +1,339 @@
+<!doctype html>
+
+
+<html>
+
+
+
+<head>
+	<meta chartset="UTF-8">
+
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+	<link rel="stylesheet" type="text/css" href="css/store.css">
+
+	<link rel="icon" type="image/png" href="../img/favicon.png" sizes="96x96">
+
+	<title>
+		Fuck The Strike
+	</title>
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+	<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+
+
+	<script src="script.js" type="text/javascript"></script>
+
+
+</head>
+
+
+
+<body>
+
+
+
+
+
+<div class="main">
+
+
+
+
+<div class="intro">
+	<div class="text">
+		Fuck the strike, right?
+	</div>
+	<div class="logo-container">
+		<img src="img/logo.svg" class="logo" />
+	</div>
+</div>
+
+
+
+
+<div class="content">
+
+<div class="grid">
+
+<div class="item" onclick="openModal();currentSlide(1)">
+	<div class="content">
+		<div class="image-container">
+			<img src="img/products/tshirt.jpg" class="image" />
+		</div>
+		<div class="text-container">
+
+			<div class="button">
+				<div class="text">
+					BUY NOW
+				</div>
+			</div>
+
+		</div>
+	</div>
+</div>
+
+
+
+<div class="item" onclick="openModal();currentSlide(2)">
+	<div class="content">
+		<div class="image-container">
+			<img src="img/products/sweater.jpg" class="image" />
+		</div>
+		<div class="text-container">
+
+			<div class="button">
+				<div class="text">
+					BUY NOW
+				</div>
+			</div>
+
+		</div>
+	</div>
+</div>
+
+
+<div class="item" id="item-3" onclick="openModal();currentSlide(3)">
+	<div class="content">
+		<div class="image-container">
+			<img src="img/products/sticker.jpg" class="image" />
+		</div>
+		<div class="text-container">
+
+			<div class="button">
+				<div class="text">
+					BUY NOW
+				</div>
+			</div>
+
+		</div>
+	</div>
+</div>
+
+
+</div>
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="myModal" class="modal">
+
+		<div class="modal-content">
+
+
+			<div class="mySlides">
+			<div class="content">
+				<span class="close cursor" onclick="closeModal()">&times;</span>
+				<div class="image-container">
+					<img src="img/products/tshirt.jpg" class="image"/>
+				</div>
+				<div class="text-container">
+					<div class="name">
+						FUCK THE STRIKE TSHIRT
+					</div>
+					<div class="price">
+						$32.00
+					</div>
+					<div class="about">
+						Gildan Tri-Blend Tshirt
+					</div>
+					<div class="about-2">
+						All purchases will be made offsite through redbubble.com
+					</div>
+					<div class="button" >
+					<div class="button-item" onclick="important()">
+						BUY NOW
+					</div>
+					</div>
+				</div>
+			</div>
+			</div>
+
+
+
+			<div class="mySlides">
+			<div class="content">
+				<span class="close cursor" onclick="closeModal()">&times;</span>
+				<div class="image-container">
+					<img src="img/products/sweater.jpg" class="image"/>
+				</div>
+				<div class="text-container">
+					<div class="name">
+						FUCK THE STRIKE SWEATER
+					</div>
+					<div class="price">
+						$55.16
+					</div>
+					
+					<div class="about-2">
+						All purchases will be made offsite through redbubble.com
+					</div>
+					<a href="https://www.redbubble.com/people/fuckthestrike/works/32555650-fuck-the-strike-apparel?p=t-shirt&style=mhoodie&rbs=" class="button link">
+					<div class="button-item">
+						BUY NOW
+					</div>
+				</a>
+				</div>
+			</div>
+			</div>
+
+
+
+			<div class="mySlides">
+			<div class="content">
+				<span class="close cursor" onclick="closeModal()">&times;</span>
+				<div class="image-container">
+					<img src="img/products/sticker.jpg" class="image"/>
+				</div>
+				<div class="text-container">
+					<div class="name">
+						FUCK THE STRIKE STICKER
+					</div>
+					<div class="price">
+						$2.29 - $14.03
+					</div>
+					<div class="about">
+						No, it doesn't come with the laptop.
+					</div>
+					<div class="about-2">
+						All purchases will be made offsite through redbubble.com
+					</div>
+					<a href="https://www.redbubble.com/people/fuckthestrike/works/32556695-fuck-the-strike-sticker?asc=u&p=sticker&rel=carousel" class="button link">
+					<div class="button-item">
+						BUY NOW
+					</div>
+				</a>
+				</div>
+			</div>
+			</div>
+
+
+		</div>
+</div>
+
+
+
+
+
+
+
+<div class="important" id="important">
+<div class="content">
+
+<div class="image-container">
+	<img src="img/products/tshirt.jpg" class="image">
+</div>
+<div class="text">
+	By default, Redbubble will select a random shirt colour. Be sure to choose the red style before you check out!
+	<a href="https://www.redbubble.com/people/fuckthestrike/works/32555927-fuck-the-strike-t-shirt?asc=u&p=triblend-tee" class="button link">
+		<div class="button-item">
+			CONTINUE
+		</div>
+	</a>
+</div>
+
+</div>
+</div>
+
+
+
+
+
+
+	<script>
+
+	function important() {
+		document.getElementById('important').style.display = "flex";
+	}
+
+
+
+	// Open the Modal
+		function openModal() {
+			document.getElementById('myModal').style.display = "flex";
+		}
+		// Close the Modal
+		function closeModal() {
+			document.getElementById('myModal').style.display = "none";
+		}
+		var slideIndex = 1;
+		showSlides(slideIndex);
+		// Next/previous controls
+		function plusSlides(n) {
+			showSlides(slideIndex += n);
+		}
+		// Thumbnail image controls
+		function currentSlide(n) {
+			showSlides(slideIndex = n);
+		}
+
+		function showSlides(n) {
+			var i;
+			var slides = document.getElementsByClassName("mySlides");
+			var dots = document.getElementsByClassName("demo");
+			var captionText = document.getElementById("caption");
+			if (n > slides.length) {
+				slideIndex = 1
+			}
+			if (n < 1) {
+				slideIndex = slides.length
+			}
+			for (i = 0; i < slides.length; i++) {
+				slides[i].style.display = "none";
+			}
+			for (i = 0; i < dots.length; i++) {
+				dots[i].className = dots[i].className.replace(" active", "");
+			}
+			slides[slideIndex - 1].style.display = "flex";
+			dots[slideIndex - 1].className += " active";
+			captionText.innerHTML = dots[slideIndex - 1].alt;
+		}
+
+
+
+
+
+
+
+
+
+
+	</script>
+
+
+
+
+
+</body>
+
+</html>
