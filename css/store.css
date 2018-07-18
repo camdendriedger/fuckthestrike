@@ -109,6 +109,8 @@ body {
 .grid .item {
   height: auto;
   margin-right: 50px;
+  opacity: 0;
+  margin-top: 50px;
 }
 
 #item-3 {
@@ -265,7 +267,7 @@ body {
 .important .button-item:hover {
   border: none;
   background-color: #d39394;
-  
+
 }
 
 .important .button-item {
@@ -461,6 +463,35 @@ body {
 .close.cursor:hover {
   color: #f9e7e5;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
