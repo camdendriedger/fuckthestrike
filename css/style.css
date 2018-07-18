@@ -185,6 +185,10 @@ body {
   align-items: center;
   justify-content: center;
   text-align: center;
+
+  opacity: 0;
+  animation: fadein .3s linear forwards;
+  animation-delay: 2.2s;
 }
 
 .splash .content .button:hover {
@@ -204,4 +208,41 @@ body {
 .splash .content .button-text {
   letter-spacing: 1px;
 
+}
+
+
+
+
+
+path.path {
+  fill-opacity: 0;
+
+  stroke-dasharray: 7000;
+  stroke-dashoffset: 7000;
+  animation: dash 2s linear forwards;
+}
+
+@keyframes dash {
+  from {
+    stroke-dashoffset: 7000;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+
+path.path2 {
+  opacity: 0;
+  animation: fadein .3s linear forwards;
+  animation-delay: 1.7s;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
